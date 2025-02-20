@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Jim+Nightshade&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    
+    --darkest-red: #9D4444;
+    --darker-red: #BA5757;
+    --dark-red: #D76C6C;
+    --normal-red: #F58383;
+    --light-red: #FFACAC;
+    --lighter-red: #FFD0D0;
+    --lightest-red: #FFF3F3;
+
+
+    --darkest-red: #9D4444;
+    --darker-red: #BA5757;
+    --dark-red: #D76C6C;
+    --normal-red: #F58383;
+    --light-red: #FFACAC;
+    --lighter-red: #FFD0D0;
+    --lightest-red: #FFF3F3;
+}
+
+body {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dark-font{
+    color:white;
+}
+
+.Main-Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
