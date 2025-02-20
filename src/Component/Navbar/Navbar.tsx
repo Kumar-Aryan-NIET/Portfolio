@@ -17,7 +17,8 @@ import skillicond from "../../assets/skill-d.png";
 export const useTheme = () => useContext(ThemeContext);
 
 export const Navbar: React.FC = () => {
-  const { theme, toggleTheme, isLightMode } = useTheme();
+  const { /* theme, */ toggleTheme, isLightMode } = useTheme();
+
   let homeicon;
   let abouticon;
   let projecticon;

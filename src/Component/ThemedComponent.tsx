@@ -1,13 +1,16 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useContext } from "react";
+
 import { ThemeContext } from "../Theme/Theme";
 import { Navbar } from "./Navbar/Navbar";
 import LandingPage from "./LandingPage/LandingPage";
 import LandingPageFooter from "./LandingPageFooter/LandingPageFooter";
-import AboutMe from "./AboutMe/AboutMe";
+// import AboutMe from "./AboutMe/AboutMe";
+
 import LiveWallpaper from "./LiveWallpaper/LiveWallpaper";
 
 const ThemedComponent: React.FC = () => {
-  const { theme, isLightMode } = useContext(ThemeContext);
+  const { theme } = useContext(ThemeContext);
+
   const body = document.querySelector("body");
   if (body) {
     // if(isLightMode){
